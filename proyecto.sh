@@ -3,6 +3,7 @@
     opcion=$(dialog --stdout --checklist "¿que quieres hacer?" 40 40 0 1 actualizar on\
  2 crear_usuario on 3 crear_varios_usuarios on 4 eliminar_usuario on 5 eliminar_varios_usuarios on 6 cambiar_contraseña on 7 \
  cambiar_varias_contraseñas on 8 salir off)
+ #if para el menu
     if [ "$opcion" = "1" ]
     then
 #Actualizar los paquetes a la ultima version y quitar paquetes que ya no son necesarios
