@@ -1,5 +1,7 @@
 #!/bin/bash
 #Juan José Marín Molina 2º ASIR
+#edite el fichero contraseñas para poner las contraseñas a los usuarios, el fichero DELUSER para eliminar usuarios, el fichero
+# usuarios para decidir los usuarios a crear
 #Menu
     opcion=$(dialog --stdout --checklist "¿que quieres hacer?" 40 40 0 1 actualizar on\
  2 crear_usuario on 3 crear_varios_usuarios on 4 eliminar_usuario on 5 eliminar_varios_usuarios on 6 cambiar_contraseña on 7 \
